@@ -65,7 +65,7 @@ section .title {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   padding-bottom: 20px;
   font-family: "Ubuntu", sans-serif;
 }
@@ -357,7 +357,7 @@ section .title::after {
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 20px;
+  /* padding: 20px; */
   box-sizing: border-box;
 }
 
@@ -366,7 +366,7 @@ section .title::after {
   background: #161616;
   text-align: center;
   border-radius: 6px;
-  padding: 50px 25px;
+  padding: 20px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -414,10 +414,10 @@ section .title::after {
 .techstack {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10%;
+  gap: 5%;
   width: 90%;
-  margin: auto;
-  margin-top: 30px;
+  /* margin: auto; */
+  /* margin-top: 30px; */
 }
 
 .techstack img {
