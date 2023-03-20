@@ -434,9 +434,9 @@ section .title::after {
 
 /* ------------------- skills section styling --------------------*/
 
-.skills .title::after {
+/* .skills .title::after {
   content: "what i have";
-}
+} */
 
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -500,7 +500,7 @@ section .title::after {
 .skills .skills-content .right .line {
   height: 5px;
   width: 100%;
-  background: lightgrey;
+  background: rgb(31, 30, 30);
   position: relative;
 }
 

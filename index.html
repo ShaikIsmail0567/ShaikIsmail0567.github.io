@@ -35,10 +35,10 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#projects" class="menu-btn">Projects</a></li>
                 <!-- <li><a href="#skills" class="menu-btn">Skills</a></li> -->
-                <li><a href="#teams" class="menu-btn">Skills</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
                 <li><a id="resume-button-1" class="nav-link resume" download="" href="./images/files/Shaik-Ismail-Resume.pdf"
-                        download>Resume</a></li>
+                        download onclick="resume()">Resume</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -82,11 +82,11 @@
                         Hours of coding, 100+ Hours of Soft Skill Development and 300+ Hours of Data Structure &
                         Algorithms. Like to work with Node.js, MongoDB, and JavaScript. Seeking opportunity to use my
                         skills to grow the organization.</p>
-                    <a class="nav-link resume" target="_blank"
+                    <!-- <a class="nav-link resume" target="_blank"
                         href="https://drive.google.com/file/d/1tVOrrojEVW2RQSjdCu4rH2ruCTR_oamn/view?usp=share_link"
-                        download>Preview CV</a>
+                        download>Preview CV</a> -->
                     <a id="resume-button-2" target="_blank" class="nav-link resume" href="./images/files/Shaik-Ismail-Resume.pdf"
-                        download>Download CV</a>
+                        download onclick="resume()">Download CV</a>
                 </div>
             </div>
         </div>
@@ -201,9 +201,9 @@
    
 
 
-    <!-- --------------------- tools section ---------------------- -->
+    <!-- --------------------- skills section ---------------------- -->
 
-    <section class="teams nav-link" id="teams">
+    <section class="skills nav-link" id="skills">
         <div class="max-width">
             <h2 class="title">Skills</h2>
             <div class="tools">
@@ -359,6 +359,9 @@
 <script>
     function myFunction() {
         window.location.href = "mailto:sk.mdismail056@gmail.com";
+    }
+    function resume(){
+        window.open("https://drive.google.com/file/d/1tVOrrojEVW2RQSjdCu4rH2ruCTR_oamn/view?usp=share_link","_blank")
     }
 </script>
 
