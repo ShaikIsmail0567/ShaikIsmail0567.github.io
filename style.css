@@ -413,16 +413,16 @@ section .title::after {
 
 .techstack {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5%;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 5%; */
   width: 90%;
-  /* margin: auto; */
-  /* margin-top: 30px; */
+  margin: auto;
+  margin-left: 20px;
 }
 
 .techstack img {
   object-fit: contain;
-  width: 100%;
+  width: 60%;
 }
 
 
