@@ -338,6 +338,8 @@ section .title::after {
     border-radius: 6px;
     /* border: 2px solid #2253c8; */
     transition: all 0.3s ease;
+    z-index: 1;
+    position: relative;
 }
 
 /*  ------------------------ projects section styling ------------------*/
