@@ -60,9 +60,11 @@
                 </div>
                 <div class="text-3">And I'm a <br> <span class="typing"></span>
                     <br>
-                    <a id="resume-link-2" download="Shaik-Ismail-Resume.pdf"
-                        href="./images/files/Shaik-Ismail-Resume.pdf" onclick="resume()" target="_blank"
-                        class="nav-link resume">Download CV</a>
+                    <button class="btn-resume" >
+                        <a target="_blank"  download="" href="./images/files/Shaik-Ismail-Resume.pdf"
+                            onclick="resume()">Download
+                            CV</a>
+                    </button>
                 </div>
             </div>
             <script src="app.js"></script>
@@ -91,8 +93,10 @@
                         eager to expand my skillset and learn new technologies.I'm excited to leverage my skills and
                         experience to contribute to the growth of an organization.</p>
 
-                    <button id="resume-button-2" class="nav-link resume">Download CV</button>
-
+                    <!-- <button id="resume-button-2" class="nav-link resume">Download CV</button> -->
+                    <a id="resume-button-2" download="Shaik-Ismail-Resume.pdf"
+                        href="./images/files/Shaik-Ismail-Resume.pdf" onclick="resume()" target="_blank"
+                        class="nav-link resume">Download CV</a>
                 </div>
             </div>
         </div>
@@ -380,16 +384,16 @@
         window.open("https://drive.google.com/file/d/1tVOrrojEVW2RQSjdCu4rH2ruCTR_oamn/view?usp=share_link", "_blank")
     }
 
-    document.getElementById("resume-button-2").addEventListener("click", function() {
-  var link = document.createElement("a");
-  link.href = "./images/files/Shaik-Ismail-Resume.pdf";
-  link.target = "_blank";
-  link.download = "Shaik-Ismail-Resume.pdf";
-  document.body.appendChild(link);
-  link.click();
-  window.open("https://drive.google.com/file/d/1tVOrrojEVW2RQSjdCu4rH2ruCTR_oamn/view?usp=share_link", "_blank")
-  document.body.removeChild(link);
-});
+//     document.getElementById("resume-button-2").addEventListener("click", function() {
+//   var link = document.createElement("a");
+//   link.href = "./images/files/Shaik-Ismail-Resume.pdf";
+//   link.target = "_blank";
+//   link.download = "Shaik-Ismail-Resume.pdf";
+//   document.body.appendChild(link);
+//   link.click();
+//   window.open("https://drive.google.com/file/d/1tVOrrojEVW2RQSjdCu4rH2ruCTR_oamn/view?usp=share_link", "_blank")
+//   document.body.removeChild(link);
+// });
 
 </script>
 
